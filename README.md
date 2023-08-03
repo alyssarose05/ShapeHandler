@@ -25,14 +25,14 @@ You will then see a package containing two files: 2DShapes and 3DShapes. You wil
 
 For Kotlin:
 ``` kt
-import shapehandler.code.kotlin.*
+import kt.code.shapehandler.*
 ```
 
 
 And for Java:
 ``` java
-import shapehandler.code.java.twoD.*;
-import shapehandler.code.java.threeD.*;
+import ja.code.shapehandler.twoD.*;
+import ja.code.shapehandler.threeD.*;
 ```
 
 And that's it! You're ready to <i>shape up</i> your code!
