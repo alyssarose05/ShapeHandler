@@ -1,8 +1,8 @@
 # ShapeHandler
 
-Let's be real: <b>coding could have been so much easier to learn.</b> I always found myself wondering why I could never find any helpful formulas that would save me and countless other programmers hours of Googling different (and sometimes complex) formulas and having to implement them ourselves, only to use them in few lines of code.
+Let's be real: <b>coding could have been so much easier to learn.</b> I always found myself wondering why I could never find any helpful functions or libraries that could have saved me and countless other programmers hours of Googling different (and often complex) formulas and figuring out how to implement them through all the errors, only to use them in just one or two lines of code!
 
-That is why I created the <i>ShapeHandler</i> project.  Being made for both Java and Kotlin, there are classes of 2D and 3D shapes that you can put into your own projects to quickly calculate the perimeter, area, etc. of a shape given specific parameters. Here are the currently available shapes and operations:
+That is why I created the <i>ShapeHandler</i> project. Being made for both Java and Kotlin, there are classes of 2D and 3D shapes that you can put into your own projects to quickly calculate the perimeter, area, etc. of a shape given specific parameters. Here are the currently available shapes and operations:
 
 ### 2D Shapes
 | Triangle    | Rectangle   | Square      | Circle          | Trapezoid   | Ellipse         | Parallelogram | Kite        | Polygon     |
