@@ -1,5 +1,8 @@
 package shapehandler.code.java;
 
+import shapehandler.code.java.threeD.*;
+import shapehandler.code.java.twoD.*;
+
 public class Test {
 
     public static void shapeTest() {
