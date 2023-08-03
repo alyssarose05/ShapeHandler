@@ -1,6 +1,7 @@
 package different
 
-import shapehandler.code.kotlin.*
+import kt.code.shapehandler.Cube
+import kt.code.shapehandler.Rectangle
 
 class KotlinFile {
     var a = Rectangle(3.0, 2.0)

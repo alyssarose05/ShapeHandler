@@ -1,4 +1,4 @@
-package shapehandler.code.kotlin
+package kt.code.shapehandler
 
 class Test {
 }

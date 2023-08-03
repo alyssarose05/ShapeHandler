@@ -1,4 +1,4 @@
-package shapehandler.code.java.twoD;
+package ja.code.shapehandler.twoD;
 
 public class Triangle {
     private double a, b, c;

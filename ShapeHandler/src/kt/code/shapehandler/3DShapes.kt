@@ -1,4 +1,4 @@
-package shapehandler.code.kotlin
+package kt.code.shapehandler
 
 import kotlin.math.PI
 import kotlin.math.pow

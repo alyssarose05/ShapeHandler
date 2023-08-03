@@ -1,4 +1,4 @@
-package shapehandler.code.java.threeD;
+package ja.code.shapehandler.threeD;
 
 import static java.lang.Math.sqrt;
 

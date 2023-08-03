@@ -1,7 +1,7 @@
 package different;
 
-import shapehandler.code.java.twoD.*;
-import shapehandler.code.java.threeD.*;
+import ja.code.shapehandler.twoD.*;
+import ja.code.shapehandler.threeD.*;
 
 public class JavaFile {
     Rectangle r = new Rectangle(2,34);
