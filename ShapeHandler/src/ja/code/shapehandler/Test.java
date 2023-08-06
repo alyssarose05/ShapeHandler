@@ -1,5 +1,6 @@
 package ja.code.shapehandler;
 
+import ja.code.shapehandler.formulas.*;
 import ja.code.shapehandler.threeD.*;
 import ja.code.shapehandler.twoD.*;
 
@@ -82,10 +83,28 @@ public class Test {
 
     }
 
+    public static void formulas() {
+        System.out.println("TO CELSIUS: " + Formulas.convertToCelsius(45.0)); // EXPECTED: 7.22222
+        System.out.println("TO FAHRENHEIT: " + Formulas.convertToFahrenheit(45.0)); // EXPECTED: 113
+
+        // x^2 + 3x - 4 = 0
+        System.out.println("\nQUADRATIC PLUS: " + Formulas.quadraticPlus(1.0, 3.0, -4.0)); // EXPECTED: 1
+        System.out.println("QUADRATIC MINUS: " + Formulas.quadraticMinus(1.0, 3.0, -4.0)); // EXPECTED: -4
+
+        System.out.println("\nDISTANCE: " + Formulas.distance(new Point(1.0, 2.0), new Point(3.0, 4.0))); // EXPECTED: 2.8284271247462
+        System.out.println("MIDPOINT: " + Formulas.midpoint(new Point(1.0, 2.0), new Point(3.0, 4.0))); // EXPECTED: (2,3)
+        System.out.println("SLOPE INTERCEPT: " + Formulas.slopeIntercept(new Point(1.0, 2.0), 3.0)); // EXPECTED: -1
+        System.out.println("SLOPE: " + Formulas.slope(new Point(1.0, 2.0), new Point(3.0, 4.0))); // EXPECTED: 1
+
+        System.out.println("\nPYTHAGOREAN THEOREM: " + Formulas.pythagoreanTheorem(1.0, 2.0)); // EXPECTED: 2.2360679775
+    }
+
     public static void main(String[] args) {
         // shapeTest(); PASSED ALL CHECKS 8/2/23
 
         // dTest(); PASSED ALL CHECKS 8/2/23
+
+        // formulas(); PASSED ALL CHECKS 8/6/23
 
     }
 }

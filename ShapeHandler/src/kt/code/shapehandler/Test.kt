@@ -7,6 +7,8 @@ fun main(args: Array<String>) {
     // twoD() PASSED ALL CHECKS 8/2/23
 
     // threeD() PASSED ALL CHECKS 8/2/23
+
+    // formulas() PASSED ALL CHECKS 8/6/23
 }
 
 fun twoD() {
@@ -81,5 +83,26 @@ fun threeD() {
     println("\nSPHERE VOLUME: ${e.volume()}") // EXPECTED: 523.6
     println("SPHERE DIAMETER: ${e.diameter()}") // EXPECTED: 10
     println("SPHERE SURFACE AREA: ${e.surfaceArea()}") // EXPECTED: 314.16
+
+}
+
+fun formulas() {
+    println("TO CELSIUS: ${convertToCelsius(45.0)}") // EXPECTED: 7.22222
+    println("TO FAHRENHEIT: ${convertToFahrenheit(45.0)}") // EXPECTED: 113
+
+    // x^2 + 3x - 4 = 0
+    println("\nQUADRATIC PLUS: ${quadraticPlus(1.0, 3.0, -4.0)}") // EXPECTED: 1
+    println("QUADRATIC MINUS: ${quadraticMinus(1.0, 3.0, -4.0)}") // EXPECTED: -4
+
+    println("\nDISTANCE: ${distance(Point(1.0,2.0), Point(3.0,4.0))}") // EXPECTED: 2.8284271247462
+    println("MIDPOINT: ${midpoint(Point(1.0, 2.0), Point(3.0, 4.0))}") // EXPECTED: (2,3)
+    println("SLOPE INTERCEPT: ${slopeIntercept(Point(1.0,2.0), 3.0)}") // EXPECTED: -1
+    println("SLOPE: ${slope(Point(1.0, 2.0), Point(3.0, 4.0))}") // EXPECTED: 1
+
+    println("\nPYTHAGOREAN THEOREM: ${pythagoreanTheorem(1.0, 2.0)}") // EXPECTED: 2.2360679775
+
+
+
+
 
 }
