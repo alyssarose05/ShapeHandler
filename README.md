@@ -19,6 +19,17 @@ That is why I created the <i>ShapeHandler</i> project. Being made for both Java 
 | surfaceArea()   | surfaceArea()   | lateralSurfaceArea() | lateralSurfaceArea() | surfaceArea() |
 |                 |                 | baseArea()           | baseArea()           |               |
 
+### FORMULAS FOR THE POINT CLASS (takes any point (x,y))
+- Distance: distance(p1, p2)
+- Midpoint: midpoint(p1, p2)
+- Slope intercept: slopeIntercept(p, yIntercept)
+- Slope: slope(p1, p2)
+
+### OTHER FORMULAS
+- Quadratic Formula: quadraticPlus(a, b, c) and quadraticMinus(a, b, c)
+- Temperature conversion: convertToCelsius(temp) and convertToFahrenheit(temp)
+- Pythagorean theorem: pythagoreanTheorem(a, b)
+
 ## Installation
 Go to the <b>Releases</b> page in this repository. There are two zipped files: one for Java, and one for Kotlin. Download the zipped file corresponding to the language that you will be using, and extract it. 
 You will then see a package containing two files: 2DShapes and 3DShapes. You will have to import it into your project to use it. But luckily, this is simple enough.
@@ -31,9 +42,12 @@ import kt.code.shapehandler.*
 
 And for Java:
 ``` java
+import ja.code.shapehandler.formulas.*;
 import ja.code.shapehandler.twoD.*;
 import ja.code.shapehandler.threeD.*;
 ```
 
 And that's it! You're ready to <i>shape up</i> your code!
  Have fun!
+
+ <em>NOTE FOR JAVA USERS:</em> For the fiiles in "Other Formulas," you must put ```Formulas.``` before the function name.
