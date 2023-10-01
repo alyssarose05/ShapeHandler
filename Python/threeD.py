@@ -60,7 +60,7 @@ class Pyramid(object):
 
 	def surfaceArea(self):
 		return self.length * self.width + self.length * math.sqrt(math.pow((width / 2),2.0) + math.pow(self.height,2.0) + self.width * sqrt(
-             + math.pow(self.height, 2.0))
+             math.pow(self.length/2, 2.0) + math.pow(self.height, 2.0))
         )
 
 	def baseArea(self):
