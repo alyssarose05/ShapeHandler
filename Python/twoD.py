@@ -125,5 +125,5 @@ class Polygon(object):
 		self.sideLength = sideLength
 
 	def perimeter(self):
-		return self.numSides * self.side.Length
+		return self.numSides * self.sideLength
 		
