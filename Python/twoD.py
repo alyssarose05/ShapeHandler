@@ -18,6 +18,7 @@ class Triangle(object):
 		if self.base == 0.0 and height == 0.0:
 			s = (self.a + self.b + self.c) / 2
 			return math.sqrt(s * (s - self.a) * (s - self.b) * (s-c))
+		return 0.5 * self.base * self.height
 
 
 class Rectangle(object):
@@ -92,7 +93,7 @@ class Ellipse(object):
 		return math.pi * self.a * self.b
 
 	def circumference(self):
-		return math.pi * (self.a + self.b) // APPROXIMATION
+		return math.pi * (self.a + self.b) # APPROXIMATION
 
 class Parallelogram(object):
 

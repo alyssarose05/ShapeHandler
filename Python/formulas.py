@@ -22,7 +22,7 @@ class Point(object):
 		return "(" + str(self.x) + ", " + str(self.y) + ")"
 
 def distance(p1, p2):
-	return sqrt((p2.x - p1.x).pow(2) + (p2.y - p1.y).pow(2))
+	return math.sqrt(math.pow((p2.x - p1.x),2) + math.pow((p2.y - p1.y),2))
 
 def midpoint(p1, p2):
 	return Point((p1.x + p2.x) / 2, (p1.y + p2.y) / 2)
@@ -33,5 +33,5 @@ def slopeIntercept(p, yIntercept):
 def slope(p1, p2):
 	return (p2.y - p1.y) / (p2.x - p1.x)
 
-def pythagoreanTheorem(a, b, c):
+def pythagoreanTheorem(a, b):
 	return math.sqrt(math.pow(a,2) + math.pow(b,2))

@@ -59,9 +59,10 @@ class Pyramid(object):
 		return (self.length * self.width * self.height) / 3
 
 	def surfaceArea(self):
-		return self.length * self.width + self.length * math.sqrt(math.pow((width / 2),2.0) + math.pow(self.height,2.0) + self.width * sqrt(
-             math.pow(self.length/2, 2.0) + math.pow(self.height, 2.0))
-        )
+		return ((self.length * self.width) + self.length * math.sqrt(math.pow(self.width / 2, 2) + math.pow(self.height, 2))) + (self.width * math.sqrt(math.pow(self.length / 2, 2) + math.pow(self.height, 2)));
+
+	def lateralSurfaceArea(self):
+		return (self.length * math.sqrt(math.pow(self.width / 2, 2) + math.pow(self.height, 2))) + (self.width * math.sqrt(math.pow(self.length / 2, 2) + math.pow(self.height, 2)))
 
 	def baseArea(self):
 		return self.length * self.width
@@ -72,11 +73,11 @@ class Sphere(object):
 		self.radius = radius
 
 	def volume(self):
-		return 1.333333 * math.pi * math.pow(radius,3) # rough estimate
+		return 1.333333 * math.pi * math.pow(self.radius, 3) # rough estimate
 
 	def diameter(self):
 		return 2 * self.radius
 
 	def surfaceArea(self):
-		return 4 * self.pi * math.pow(radius,2)
+		return 4 * math.pi * math.pow(self.radius, 2)
 
