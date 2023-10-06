@@ -1,4 +1,6 @@
-// NOT RUN FROM INSTALLED FOLDER STRUCTURE
+// NOT TESTED WITH THIS FILE STRUCTURE
+
+import ShapeHandler.*
 
 class Test {
 }

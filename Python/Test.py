@@ -1,6 +1,4 @@
-from twoD import *
-from threeD import *
-from formulas import *
+import ShapeHandler
 
 def twoD():
 	a = Triangle(5.0, 6.0, 7.0)

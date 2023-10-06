@@ -1,4 +1,4 @@
-// NOT RUN FROM INSTALLED FOLDER STRUCTURE
+import ShapeHandler.*;
 
 public class Test {
 
