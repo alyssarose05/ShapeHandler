@@ -9,8 +9,6 @@ fun convertToFahrenheit(temp: Double): Double {
     return (temp * 1.8) + 32
 }
 
-
-
 fun quadraticPlus(a: Double, b: Double, c: Double): Double {
     return (-b + sqrt(b.pow(2) - (4 * a * c))) / (2 * a)
 }
@@ -18,7 +16,6 @@ fun quadraticPlus(a: Double, b: Double, c: Double): Double {
 fun quadraticMinus(a: Double, b: Double, c: Double): Double {
     return (-b - sqrt(b.pow(2) - (4 * a * c))) / (2 * a)
 }
-
 
 
 class Point (var x: Double, var y: Double) {
