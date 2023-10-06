@@ -31,4 +31,13 @@ That is why I created the <i>ShapeHandler</i> project. Being made for C, C++, Ja
 - Pythagorean theorem: pythagoreanTheorem(a, b)
 
 ### Installation
-Drag the corresponding file(s) that you wish to use into the same directory as your project, and you're good to go to start <i>shaping</i> up your code. Have fun!
+You are welcome to install these files in any way you see fit, but there are pre-defined and short ways of installing these functions depending on what language you are using.
+
+**C and C++**: Insert the `ShapeHandler.h` file into the same directory as your project. In the source files that use the file, type `#include "ShapeHandler.h"` at the top.
+
+**Java, Kotlin, and Python:** Insert the `ShapeHandler` package into the same directory as your project. In the source files that use the package, type the command that corresponds to the language you are using at the top:
+- Java: `import ShapeHandler.*;`
+- Kotlin: `import ShapeHandler.*`
+- Python: `import ShapeHandler`
+
+And that's it! You're ready to start *shaping* up your code. Have fun!
