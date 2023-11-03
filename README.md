@@ -5,30 +5,30 @@ Let's be real: <b>coding could have been so much easier to learn.</b> I always f
 That is why I created the <i>ShapeHandler</i> project. Being made for C, C++, Java, Kotlin, and Python (*Look out for new languages that may be added!*), there are classes of 2D and 3D shapes (and even more types of formulas) that you can put into your own projects to quickly calculate the perimeter, area, etc. of a shape given specific parameters. Here are the currently available shapes and operations:
 
 ### 2D Shapes
-| Triangle    | Rectangle   | Square      | Circle          | Trapezoid   | Ellipse         | Parallelogram | Kite        | Polygon     |
-|-------------|-------------|-------------|-----------------|-------------|-----------------|---------------|-------------|-------------|
-| perimeter() | perimeter() | perimeter() | area()          | perimeter() | area()          | perimeter()   | perimeter() | perimeter() |
-| area()      | area()      | area()      | circumference() | area()      | circumference() | area()        | area()      |             |
-|             | diagonal()  | diagonal()  | diameter()      |             |                 |               |             |             |
+| Triangle      | Rectangle     | Square        | Circle            | Trapezoid     | Ellipse           | Parallelogram   | Kite          | Polygon       |
+|---------------|---------------|---------------|-------------------|---------------|-------------------|-----------------|---------------|---------------|
+| `perimeter()` | `perimeter()` | `perimeter()` | `area()`          | `perimeter()` | `area()`          | `perimeter()`   | `perimeter()` | `perimeter()` |
+| `area()`      | `area()`      | `area()`      | `circumference()` | `area()`      | `circumference()` | `area()`        | `area()`      |               |
+|               | `diagonal()`  | `diagonal()`  | `diameter()`      |               |                   |                 |               |               |
 
 ### 3D Shapes
-| Cube            | Cuboid          | Cylinder             | Pyramid              | Sphere        |
-|-----------------|-----------------|----------------------|----------------------|---------------|
-| volume()        | volume()        | volume()             | volume()             | volume()      |
-| spaceDiagonal() | spaceDiagonal() | surfaceArea()        | surfaceArea()        | diameter()    |
-| surfaceArea()   | surfaceArea()   | lateralSurfaceArea() | lateralSurfaceArea() | surfaceArea() |
-|                 |                 | baseArea()           | baseArea()           |               |
+| Cube              | Cuboid              | Cylinder               | Pyramid                | Sphere          |
+|-------------------|-------------------- |------------------------|------------------------|-----------------|
+| `volume() `       | `volume()`          | `volume()`             | `volume()`             | `volume()`      |
+| `spaceDiagonal()` | `spaceDiagonal()`   | `surfaceArea()`        | `surfaceArea()`        | `diameter()`    |
+| `surfaceArea()`   | `surfaceArea()      | `lateralSurfaceArea()` | `lateralSurfaceArea()` | `surfaceArea()` |
+|                   |                     | `baseArea()`           | `baseArea()`           |                 |
 
 ### FORMULAS FOR THE POINT CLASS (takes any point (x,y))
-- Distance: distance(p1, p2)
-- Midpoint: midpoint(p1, p2)
-- Slope intercept: slopeIntercept(p, yIntercept)
-- Slope: slope(p1, p2)
+- Distance: `distance(p1, p2)`
+- Midpoint: `midpoint(p1, p2)`
+- Slope intercept: `slopeIntercept(p, yIntercept)`
+- Slope: `slope(p1, p2)`
 
 ### OTHER FORMULAS
-- Quadratic Formula: quadraticPlus(a, b, c) and quadraticMinus(a, b, c)
-- Temperature conversion: convertToCelsius(temp) and convertToFahrenheit(temp)
-- Pythagorean theorem: pythagoreanTheorem(a, b)
+- Quadratic Formula: `quadraticPlus(a, b, c)` and `quadraticMinus(a, b, c)`
+- Temperature conversion: `convertToCelsius(temp)` and `convertToFahrenheit(temp)`
+- Pythagorean theorem: `pythagoreanTheorem(a, b)`
 
 ### Installation
 You are welcome to install these files in any way you see fit, but there are pre-defined and short ways of installing these functions depending on what language you are using.
