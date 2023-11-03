@@ -12,12 +12,12 @@ That is why I created the <i>ShapeHandler</i> project. Being made for C, C++, Ja
 |               | `diagonal()`  | `diagonal()`  | `diameter()`      |               |                   |                 |               |               |
 
 ### 3D Shapes
-| Cube              | Cuboid              | Cylinder               | Pyramid                | Sphere          |
-|-------------------|-------------------- |------------------------|------------------------|-----------------|
-| `volume() `       | `volume()`          | `volume()`             | `volume()`             | `volume()`      |
-| `spaceDiagonal()` | `spaceDiagonal()`   | `surfaceArea()`        | `surfaceArea()`        | `diameter()`    |
-| `surfaceArea()`   | `surfaceArea()      | `lateralSurfaceArea()` | `lateralSurfaceArea()` | `surfaceArea()` |
-|                   |                     | `baseArea()`           | `baseArea()`           |                 |
+| Cube              | Cuboid               | Cylinder               | Pyramid                | Sphere          |
+|-------------------|--------------------  |------------------------|------------------------|-----------------|
+| `volume() `       | `volume()`           | `volume()`             | `volume()`             | `volume()`      |
+| `spaceDiagonal()` | `spaceDiagonal()`    | `surfaceArea()`        | `surfaceArea()`        | `diameter()`    |
+| `surfaceArea()`   | `surfaceArea()`      | `lateralSurfaceArea()` | `lateralSurfaceArea()` | `surfaceArea()` |
+|                   |                      | `baseArea()`           | `baseArea()`           |                 |
 
 ### FORMULAS FOR THE POINT CLASS (takes any point (x,y))
 - Distance: `distance(p1, p2)`
