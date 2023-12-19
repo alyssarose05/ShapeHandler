@@ -50,12 +50,12 @@ public class Test {
     }
 
     public static void dTest() {
-        Cube a = new Cube(5); // THEN EDIT IN KOTLIN
+        Cube a = new Cube(5);
         System.out.println("CUBE VOLUME: " + a.volume()); // EXPECTED: 125
         System.out.println("CUBE SPACE DIAGONAL: " + a.spaceDiagonal()); // EXPECTED: 8.66
         System.out.println("CUBE SURFACE AREA: " + a.surfaceArea()); // EXPECTED: 150
 
-        Cuboid b = new Cuboid(5, 6, 7); // THEN EDIT IN KOTLIN
+        Cuboid b = new Cuboid(5, 6, 7);
         System.out.println("\nCUBOID VOLUME: " + b.volume()); // EXPECTED: 210
         System.out.println("CUBOID SPACE DIAGONAL: " + b.spaceDiagonal()); // EXPECTED: 10.49
         System.out.println("CUBOID SURFACE AREA: " + b.surfaceArea()); // EXPECTED: 214
@@ -96,11 +96,11 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        // shapeTest(); PASSED ALL CHECKS 8/2/23
+         // shapeTest(); ALL CHECKS PASED 12/19/23
 
-        // dTest(); PASSED ALL CHECKS 8/2/23
+         // dTest(); ALL CHECKS PASSED 12/19/23
 
-        // formulas(); PASSED ALL CHECKS 8/6/23
+         // formulas(); ALL CHECKS PASSED 12/19/23
 
     }
 }

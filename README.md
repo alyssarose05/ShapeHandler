@@ -2,7 +2,7 @@
 
 Let's be real: <b>coding could have been so much easier to learn.</b> I always found myself wondering why I could never find any helpful functions or libraries that could have saved me and countless other programmers hours of Googling different (and often complex) formulas and figuring out how to implement them through all the errors, only to use them in just one or two lines of code!
 
-That is why I created the <i>ShapeHandler</i> project. Being made for C, C++, Java, Kotlin, and Python (*Look out for new languages that may be added!*), there are classes of 2D and 3D shapes (and even more types of formulas) that you can put into your own projects to quickly calculate the perimeter, area, etc. of a shape given specific parameters. Here are the currently available shapes and operations:
+That is why I created the <i>ShapeHandler</i> project. Being made for Java and Python, there are classes of 2D and 3D shapes (and even more types of formulas) that you can put into your own projects to quickly calculate the perimeter, area, etc. of a shape given specific parameters. Here are the currently available shapes and operations:
 
 ### 2D Shapes
 | Triangle      | Rectangle     | Square        | Circle            | Trapezoid     | Ellipse           | Parallelogram   | Kite          | Polygon       |
@@ -33,11 +33,12 @@ That is why I created the <i>ShapeHandler</i> project. Being made for C, C++, Ja
 ### Installation
 You are welcome to install these files in any way you see fit, but there are pre-defined and short ways of installing these functions depending on what language you are using.
 
-**C and C++**: Insert the `ShapeHandler.h` file into the same directory as your project. In the source files that use the file, type `#include "ShapeHandler.h"` at the top.
-
-**Java, Kotlin, and Python:** Insert the `ShapeHandler` package into the same directory as your project. In the source files that use the package, type the command that corresponds to the language you are using at the top:
+Insert the `ShapeHandler` package into the same directory as your project. In the source files that use the package, type the command that corresponds to the language you are using at the top:
 - Java: `import ShapeHandler.*;`
-- Kotlin: `import ShapeHandler.*`
-- Python: `import ShapeHandler`
+- Python: `import ShapeHandler as sh` (Note: `sh` can be replaced with anything you'd like.)
+
+### Usage
+- Java: Use methods/classes as normal, except put `Formulas.` before any method in "Other Formulas."
+- Python: Put `sh.` (or any abbreviation you changed it to) before every class declaration and formula usage.
 
 And that's it! You're ready to start *shaping* up your code. Have fun!
