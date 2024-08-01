@@ -36,10 +36,11 @@ You are welcome to install these files in any way you see fit, but there are pre
 Insert the `ShapeHandler` package into the same directory as your project. In the source files that use the package, type the command that corresponds to the language you are using at the top:
 - Java: `import ShapeHandler.*;`
 - Python: `import ShapeHandler as sh` (Note: `sh` can be replaced with anything you'd like.)
-- C/C++: `#include "ShapeHandler.h"` (make sure the `ShapeHandler.h` file is in the same directory as your project.)
+- C/C++: `#include "ShapeHandler.h"`
 
 ### Usage
 - Java: Use methods/classes as normal, except put `Formulas.` before any method in "Other Formulas."
 - Python: Put `sh.` (or any abbreviation you changed it to) before every class declaration and formula usage.
+- C/C++: Put `ShapeHandler.h` at the top of any file that uses ShapeHandler.
 
 And that's it! You're ready to start *shaping* up your code. Have fun!
